@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="jni"/>
+	<classpathentry excluding="jniLibs/" kind="src" path="Libraries">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="MOSAndroidChess/bin"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Libraries/bcprov-jdk15on-149.jar"/>
+	<classpathentry kind="lib" path="Libraries/Jama-1.0.3.jar"/>
+	<classpathentry kind="lib" path="Libraries/lz4-1.2.0.jar"/>
+	<classpathentry kind="lib" path="Libraries/commons-math3-3.3/commons-math3-3.3.jar" sourcepath="C:/Users/C/workspace/MOSAndroidChess/Libraries/commons-math3-3.3/commons-math3-3.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libraries/jniLibs"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
